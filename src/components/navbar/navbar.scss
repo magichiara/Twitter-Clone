@@ -1,0 +1,50 @@
+.Navbar {
+  background-color: black;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem;
+  gap: 1rem;
+  border-right: 0.5px solid rgba(211, 211, 211, 0.573);
+
+  .logo {
+    font-size: 2.6rem;
+    color: #1da1f2;
+    cursor: pointer;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    gap: 1.6rem;
+    cursor: pointer;
+  }
+
+  .latest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+
+    .pic {
+      img {
+        box-sizing: content-box;
+        border: 3px solid #1da1f2;
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.15s ease-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

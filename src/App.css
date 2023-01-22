@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+  border-left: 0.5px solid rgba(211, 211, 211, 0.573);
+  border-right: 0.5px solid rgba(211, 211, 211, 0.573);
+}
+
+.right-section {
+  width: 25%;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-section {
+    width: 100%;
+  }
+
+  .left-section {
+    justify-content: center;
+    padding: 0 1rem;
+    width: 25%;
+  }
+
+  .right-section {
+    display: flex;
+    padding: 0 1rem;
+  }
+}

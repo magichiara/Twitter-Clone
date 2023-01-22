@@ -1,0 +1,40 @@
+.Searchbar {
+  border-top: 0.5px solid rgba(211, 211, 211, 0.573);
+  padding: 1.3rem 1rem;
+
+  form {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #202021;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 0 0.5rem;
+
+    input {
+      font-size: 1rem;
+      flex-grow: 1;
+      background-color: #202021;
+      padding: 0.9rem 0.8rem;
+      color: white;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      color: white;
+      border: none;
+      transition: all 0.25s;
+
+      &:hover {
+        color: #1da1f2;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.Header {
+  padding: 1.2rem;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(211, 211, 211, 0.573);
+
+  h2 {
+    margin: 0;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header {
+    padding: 2rem;
+
+    h2 {
+      margin: 0;
+      font-size: 1.7rem;
+    }
+  }
+}

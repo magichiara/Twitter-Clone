@@ -1,0 +1,46 @@
+.TweetItem {
+  display: flex;
+  gap: 1rem;
+
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .tweet-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    h4,
+    h5,
+    p {
+      margin: 0;
+    }
+
+    p {
+      font-size: 0.9rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      line-height: 1.3rem;
+    }
+
+    .reaction {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      color: #1da1f2;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .TweetItem {
+    p {
+      -webkit-line-clamp: 7;
+    }
+  }
+}

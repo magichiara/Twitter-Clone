@@ -1,0 +1,19 @@
+:root {
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 0.1;
+  color: white;
+  background: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}

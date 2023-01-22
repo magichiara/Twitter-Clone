@@ -1,0 +1,47 @@
+.Modal {
+  position: fixed;
+  transition: all 1s;
+  /*  animation: fadeIn 0.3s; */
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba($color: #646467, $alpha: 0.6);
+    z-index: -1;
+  }
+
+  .content {
+    border-radius: 0.8rem;
+    padding: 1rem;
+    position: fixed;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    /*  animation: fadeIn 0.8s; */
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 1rem;
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      z-index: 1;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

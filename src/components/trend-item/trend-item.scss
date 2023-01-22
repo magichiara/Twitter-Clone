@@ -1,0 +1,25 @@
+.TrendItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  h4,
+  p,
+  h5 {
+    margin: 0;
+  }
+
+  p {
+    color: grey;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+
+    gap: 0.4rem;
+    color: #1da1f2;
+  }
+}

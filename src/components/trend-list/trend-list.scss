@@ -1,0 +1,11 @@
+.TrendList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  .trend-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}
